@@ -1,0 +1,454 @@
+body {
+  color: #fff;
+  background-color: #4c4b47;
+}
+
+@font-face {
+  font-family: "Eurostile-LT-Std-Bold";
+  src:url("../fonts/Eurostile-LT-Std-Bold.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Eurostile-LT-Std-Bold', sans-serif;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 0;
+}
+
+.btn {
+  font-size: 18px;
+  font-family: 'Eurostile-LT-Std-Bold', sans-serif;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+  text-decoration: none;
+  background-color: transparent;
+  color: #f1ca12;
+}
+
+.navbar-default .navbar-nav>li>a {
+  padding: 23px 20px;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-nav>li:last-child {
+  border-right: none;
+}
+
+.navbar-brand {
+  height: auto;
+  padding: 20px 15px;
+}
+
+.navbar-brand>img {
+  width: 200px;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.banner-section {
+  background-image: url(../img/hero-bg.jpg);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.banner-section h1 {
+  font-size: 9vw;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.banner-section p {
+  font-size: 18px;
+  color: #f1ca12;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.banner-section img {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+.getstarted-btn {
+  border: solid 3px #fff;
+  padding: 22px 75px;
+  color: #fff;
+  background-color: transparent;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.download-btn {
+  border: solid 3px #f1ca12;
+  padding: 22px 60px;
+  color: #000;
+  background-color: #f1ca12;
+  margin-top: 20px;
+}
+
+.cost-section {
+  background-color: #141414;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.cost-section p {
+  font-size: 18px;
+  max-width: 275px;
+  margin: 0 auto 40px;
+}
+
+.rounded-border {
+  border-radius: 50%;
+  border:solid 1px #fff;
+  max-width: 275px;
+  height: 275px;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+.rounded-border h1 {
+  font-size: 40px;
+  color: #f1ca12;
+}
+
+.rounded-border h2 {
+  color: #f1ca12;
+  margin-top: 0;
+  font-size: 30px
+}
+
+.rounded-border p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.problem-section {
+  background-color: #0c0c0c;
+  text-align: center;
+  padding: 50px 0 50px;
+}
+
+.wrapper {
+  max-width: 1670px;
+  margin: 0 auto;
+}
+
+.problem-section h1 {
+  font-size: 12vw;
+  margin-bottom: 50px;
+}
+
+.problem-section img {
+  margin-top: 50px;
+}
+
+.problem-section h3 {
+  font-size: 28px;
+}
+
+.appworks-section {
+  background-image: url(../img/appworks-bg.jpg);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.appworks-section h1 {
+  line-height: .8;
+  font-size: 14vw;
+  margin: 0;
+}
+
+.appworks-section h2 {
+  line-height: .8;
+  margin-top: 0;
+  margin-bottom: 75px;
+  font-size: 13vw;
+}
+
+.appworks-section p {
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+
+.appworks-section h3 {
+  text-align: left;
+  font-size: 44px;
+  margin-top: 0;
+}
+
+.yellowbg {
+  text-align: center;
+  background-color: #e8c314;
+  color: #000;
+  padding: 15px;
+}
+
+.yellowbg p {
+  margin: 20px auto;
+  color: #000;
+}
+
+.graybg {
+  text-align: center;
+  background-color: #4f4f4f;
+  color: #000;
+  padding: 15px;
+  margin: 25px 0;
+}
+
+.graybg p {
+  margin: 20px auto;
+  color: #fff;
+}
+
+.mobile2 {
+  width: 80vw;
+}
+
+.community-section {
+  background-color: #0c0c0c;
+  padding: 100px 0 150px;
+}
+
+.community-section h1 {
+  text-align: center;
+}
+
+.community-section h3 {
+  font-size: 26px;
+}
+
+.community-section p {
+  font-size: 18px;
+}
+
+.community-section img {
+  margin-top: 70px;
+}
+
+.arrowbg a {
+  color: #000;
+  background-color: #e8c314;
+  padding: 8px 11px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.getpaid-section {
+  background-color: #e8c314;
+  color: #000;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.getpaid-section h2 {
+  font-size: 38px;
+}
+
+.getpaid-section p {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.getpaid-section .btn {
+  padding: 22px 60px;
+}
+
+.footer-section {
+  padding-top: 90px;
+  background-color: #040404;
+}
+
+.footer-section img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 280px;
+}
+
+.footer-section ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.footer-section ul li {
+  display: inline;
+}
+
+.footer-section li a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  line-height: 2;
+}
+
+.footer-section li a:focus, .footer-section li a:hover {
+  text-decoration: none;
+  color: #f1ca12;
+}
+
+.copyright p {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #e8c314;
+}
+
+.copyright {
+  font-size: 20px;
+  padding: 20px 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.copyright a{
+  color: #fff;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav>li {
+    border-right: solid 1px #fff;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    padding:40px 40px;
+  }
+
+  .banner-section {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .community-section h1 {
+    font-size: 6vw;
+  }
+
+  .appworks-section h1 {
+    font-size: 10.5vw;
+  }
+
+  .appworks-section h2 {
+    font-size: 9.5vw;
+  }
+
+  .mobile2 {
+    width: 468px;
+  }
+
+  .navbar-brand {
+    border-right: solid 1px #fff;
+    padding: 27.5px 40px;
+  }
+
+  .navbar-brand>img {
+    width: 276px;
+  }
+
+  .problem-section {
+    padding: 120px 0 150px;
+  }
+
+  .footer-section ul {
+    text-align: right;
+  }
+
+  .copyright {
+    margin-top: 100px;
+    text-align: left;
+  }
+
+  .copyright p {
+    text-align: right;
+  }
+
+
+}
+
+@media (min-width: 992px) {
+  .banner-section h1 {
+    font-size: 5.2vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .community-section h1 {
+    font-size: 108px;
+  }
+
+  .appworks-section h1 {
+    font-size: 144px;
+  }
+
+  .appworks-section h2 {
+    font-size: 130px;
+  }
+
+  .banner-section h1 {
+    font-size: 70px;
+    margin-top: 100px;
+  }
+
+  .problem-section h1 {
+    font-size: 80px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1920px) {
+
+
+}
+
+@media (min-width: 1143px) {
+
+}
+
+@media (max-width: 1142px) {
+
+}
